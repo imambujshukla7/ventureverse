@@ -1,5 +1,3 @@
-const pair = "access":
-
 const posts = [
     { image: 'path/to/image1.jpg', caption: 'Amazing view from the mountains!' },
     { image: 'path/to/image2.jpg', caption: 'Exploring the beach paradise.' }
