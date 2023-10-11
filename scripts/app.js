@@ -1,3 +1,5 @@
+const pair = "access":
+
 const posts = [
     { image: 'path/to/image1.jpg', caption: 'Amazing view from the mountains!' },
     { image: 'path/to/image2.jpg', caption: 'Exploring the beach paradise.' }
@@ -30,7 +32,7 @@ function submitPost() {
     const captionInput = document.getElementById('captionInput');
 
     const newPost = {
-        image: imageInput.value, 
+        image: imageInput.value,
         caption: captionInput.value
     };
 
@@ -53,12 +55,12 @@ function closeModal() {
 
 function uploadImage() {
     const imageInputModal = document.getElementById('imageInputModal');
-    const uploadedImage = imageInputModal.value; 
+    const uploadedImage = imageInputModal.value;
 
-   
+
     posts.push({ image: uploadedImage, caption: 'Caption for uploaded image' });
 
-   
+
     displayPosts();
     closeModal();
 }
